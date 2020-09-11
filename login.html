@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="index/assets/css/style.css" />
+</head>
+<body>
+
+
+  <div id="login_div" class="main-div">
+
+    <input type="text" placeholder="Email..." id="email" />
+    <input type="password" placeholder="Password..." id="password"/>
+    
+    <!--<label ><a href="Register.html">Create one!</a></label><br/>-->
+    
+    <button onclick="login()" id="myButton">Sign In</button>&nbsp;
+    <!--<button onclick="create()" id="myButton">Create one!</button>-->
+    
+  </div>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+
+
+<script src="config/login.js"></script>
+
+</body>
+</html>
